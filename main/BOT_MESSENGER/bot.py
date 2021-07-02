@@ -33,6 +33,7 @@ class Bot_messenger:
 
             except:
                 authentication=False
+                print('erro')
 
             if authentication==True:
                 print('autentificado !')
@@ -69,3 +70,10 @@ class Bot_messenger:
         print('enviando a mensagem')
         time.sleep(20)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
+    
+    def extract():    
+        mensagem = driver.find_element_by_xpath('/html/body/div/div[1]/div[1]/div[4]/div[1]/div[3]/div/div[1]/div[3]')
+        mensagem=mensagem.get_attribute("outerHTML")
+        soup=BeautifulSoup(mensagem,'html5lib')
+        soup.get_text('!@#@!#@')
+
