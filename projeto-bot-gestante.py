@@ -7,12 +7,11 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 import time #biblioteca para adicionar um tempo de espera 
 from bs4 import BeautifulSoup #manipular html
-import pandas as pd #criar 'tabela'
 from bs4 import BeautifulSoup
 
 options = Options()# instancinado 
 options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"#adicionando o caminho do navagado ao codigo
-driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/bin/geckodriver.exe")#adiconando o caminho do controlador de navegador
+driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/Desktop/Nova pasta/geckodriver-v0.29.1-win64/2/geckodriver.exe")#adiconando o caminho do controlador de navegador
 
 
 class bot_messenger:
