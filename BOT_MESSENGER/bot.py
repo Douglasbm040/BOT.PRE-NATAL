@@ -14,18 +14,21 @@ class Bot_messenger:
     link='https://web.whatsapp.com/'
     contact="É eu msm"
 
- 
+    def ola():
+     x= print(1)
+     return x
 
-    def on_marionette(link):
+    def on_marionette():
         options = Options()# instancinado 
         options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"#adicionando o caminho do navagado ao codigo
         driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/Desktop/Nova pasta/geckodriver-v0.29.1-win64/2/geckodriver.exe")#adiconando o caminho do controlador de navegador
+
+    def acess(link):
         element=driver.get(link)
-        time.sleep(20)
-        print('aguarde pedido de autentificação')
+    time.sleep(20)
 
     def authentication():
-        print('por favor autentifique-se')
+        print('aguardando autentificação')
         while True:
             try :
                 elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[3]/div/header/div[2]/div/span/div[2]/div/span')
