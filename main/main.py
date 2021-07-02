@@ -1,9 +1,17 @@
-#from Bot_messenger 
-import sys 
-import os
-sys.path.append(os.path.abspath(r"BOT_MESSENGER\\"))
-from Bot_messenger import ola
+from BOT_MESSENGER import bot
+
+bot=bot.Bot_messenger
 
 def main():
-    Bot_messenger.on_marionette
+     contact="É eu msm"
+     link='https://web.whatsapp.com/'
+     bot.on_marionette()
+     bot.acess(link)
+     bot.authentication()
+     bot.clear_box_contact()
+     bot.search_contact(contact)
+     bot.write('ola mundo')
+     bot.send()
+
 main()
+
