@@ -54,4 +54,4 @@ def extract():
     mensagem=mensagem.get_attribute("outerHTML")
     soup=BeautifulSoup(mensagem,'html5lib')
     soup.get_text('!@#@!#@')
-#DIA
+
