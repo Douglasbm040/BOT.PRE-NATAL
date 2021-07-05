@@ -8,6 +8,14 @@ from selenium.webdriver import ActionChains
 import time #biblioteca para adicionar um tempo de espera 
 from bs4 import BeautifulSoup #manipular html
 
+class marionette():
+     def on_marionette(link):
+         options = Options()# instancinado 
+         options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"#adicionando o caminho do navagado ao codigo
+         driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/Desktop/Nova pasta/geckodriver-v0.29.1-win64/2/geckodriver.exe")#adiconando o caminho do controlador de navegador
+         elemento=driver.get(link)
+         time.sleep(20)
+         print('aguarde pedido de autentificação')
 
 
 class Bot_messenger:
@@ -29,10 +37,10 @@ class Bot_messenger:
     #     time.sleep(20)
     #     print('aguarde pedido de autentificação')
      
-    driver= on_marionette(link)
+    
     
 
-    def authentication():
+    def authentication(driver):
         print('por favor autentifique-se')
         while True:
             try :
@@ -49,7 +57,7 @@ class Bot_messenger:
         return authentication 
     
 
-    def clear_box_contact( ):
+    def clear_box_contact(driver ):
         print('buscando caixa de busca de contato')
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[3]/div/header/div[2]/div/span/div[2]/div/span').click()
         time.sleep(20)
@@ -57,12 +65,12 @@ class Bot_messenger:
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').clear()
         print('caixa de busca de contato limpa') 
 
-    def search_contact(contact):
+    def search_contact(contact,driver):
         print('digitando nome do contato')
         time.sleep(20)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').send_keys(contact)
 
-    def acess_contact():
+    def acess_contact(driver):
         print('acessando contato ')
         time.sleep(10)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div/div[2]/div[1]/div/span').click()
