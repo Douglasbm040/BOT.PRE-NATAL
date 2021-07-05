@@ -7,12 +7,12 @@ def main():
      
      contact="É eu msm"
      link='https://web.whatsapp.com/'
-     bot.on_marionette(link)
-     bot.authentication(driver)
-     bot.clear_box_contact(driver)
-     bot.search_contact(contact,driver)
-     bot.write('ola mundo',driver)
-     bot.send(driver)
+     bot.elemento
+     bot.authentication()
+     bot.clear_box_contact()
+     bot.search_contact(contact)
+     bot.write('ola mundo')
+     bot.send()
 
 main()
 
