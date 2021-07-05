@@ -72,17 +72,18 @@ class Bot_messenger:
 
     def acess_contact(driver):
         print('acessando contato ')
-        time.sleep(10)
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div/div[2]/div[1]/div/span').click()
+        time.sleep(10)                          #/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div
+        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div/div[2]').click()
 
-    def write(mensagem):
+    def write(mensagem,driver):
         print('limpando caixa de texto')
+        time.sleep(10)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').clear() 
         print('escrevendo para o contato')
         time.sleep(20)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(mensagem)
 
-    def send():
+    def send(driver):
         print('enviando a mensagem')
         time.sleep(20)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
