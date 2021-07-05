@@ -20,11 +20,16 @@ class Bot_messenger:
         options = Options()# instancinado 
         options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"#adicionando o caminho do navagado ao codigo
         driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/Desktop/Nova pasta/geckodriver-v0.29.1-win64/2/geckodriver.exe")#adiconando o caminho do controlador de navegador
-        element=driver.get(link)
+        elemento=driver.get(link)
         time.sleep(20)
         print('aguarde pedido de autentificação')
+        return driver
+     
+    driver= on_marionette(link)
+    def getdriver(self):
+        return self.driver
 
-    def authentication():
+    def authentication(driver):
         print('por favor autentifique-se')
         while True:
             try :
