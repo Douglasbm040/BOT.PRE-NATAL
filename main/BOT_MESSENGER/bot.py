@@ -26,8 +26,7 @@ class Bot_messenger:
         return driver
      
     driver= on_marionette(link)
-    def getdriver(self):
-        return self.driver
+    
 
     def authentication(driver):
         print('por favor autentifique-se')
@@ -38,7 +37,7 @@ class Bot_messenger:
 
             except:
                 authentication=False
-                print('erro')
+                
 
             if authentication==True:
                 print('autentificado !')
@@ -46,7 +45,7 @@ class Bot_messenger:
         return authentication 
     
 
-    def clear_box_contact():
+    def clear_box_contact(driver):
         print('buscando caixa de busca de contato')
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[3]/div/header/div[2]/div/span/div[2]/div/span').click()
         time.sleep(20)
@@ -54,29 +53,29 @@ class Bot_messenger:
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').clear()
         print('caixa de busca de contato limpa') 
 
-    def search_contact(contact):
+    def search_contact(contact,driver):
         print('digitando nome do contato')
         time.sleep(20)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').send_keys(contact)
 
-    def acess_contact():
+    def acess_contact(driver):
         print('acessando contato ')
         time.sleep(10)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div/div[2]/div[1]/div/span').click()
 
-    def write(mensagem):
+    def write(mensagem,driver):
         print('limpando caixa de texto')
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').clear() 
         print('escrevendo para o contato')
         time.sleep(20)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(mensagem)
 
-    def send():
+    def send(driver):
         print('enviando a mensagem')
         time.sleep(20)
         elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
     
-    def extract():    
+    def extract(driver):    
         mensagem = driver.find_element_by_xpath('/html/body/div/div[1]/div[1]/div[4]/div[1]/div[3]/div/div[1]/div[3]')
         mensagem=mensagem.get_attribute("outerHTML")
         soup=BeautifulSoup(mensagem,'html5lib')
