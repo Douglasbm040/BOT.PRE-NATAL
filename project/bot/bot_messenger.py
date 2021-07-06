@@ -34,37 +34,130 @@ class messenger:
                 break
         return authentication 
 
-    def clear_box_contact(driver ):
-        print('buscando caixa de busca de contato')
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[3]/div/header/div[2]/div/span/div[2]/div/span').click()
-        time.sleep(20)
-        print('limpando caixa de busca de contato')
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').clear()
-        print('caixa de busca de contato limpa') 
+    def click_box_contact(driver ):
+        print('clicando no box contact')
+        while True:
 
-    def search_contact(contact,driver):
-        print('digitando nome do contato')
-        time.sleep(20)
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').send_keys(contact)
+            
+            try :
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[3]/div/header/div[2]/div/span/div[2]/div/span').click()
+                go=True
 
+            except:
+                go=False
+                
+
+            if go==True:
+                print('box clicado')
+                break
+    def clear_box_contact(driver):
+        #print('limpando caixa de busca de contato')
+        print('limpando no box contact')
+        while True:
+            try :
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').clear()
+        
+                go=True
+
+            except:
+                go=False
+                
+                
+
+            if go==True:
+                print('box contact limpo')
+                break
+
+    def search_contact(list_contact,driver):
+        #print('digitando nome do contato')
+        #time.sleep(20)
+        print('pesquisando contact')
+        while True:
+            try :
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[1]/div/label/div/div[2]').send_keys(list_contact)
+        
+                go=True
+
+            except:
+                go=False
+                
+                
+
+            if go==True:
+                print('contact pesquisado')
+                break
     def acess_contact(driver):
-        print('acessando contato ')
-        time.sleep(10)                          #/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div/div[2]').click()
+        #print('acessando contato ')
+        time.sleep(20)                          #/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div
+        print('acessando contato')
+        while True:
+            try :
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div/div[2]').click()
+        
+                go=True
 
-    def write(mensagem,driver):
-        print('limpando caixa de texto')
-        time.sleep(10)
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').clear() 
-        print('escrevendo para o contato')
-        time.sleep(20)
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(mensagem)
+            except:
+                
+                go=False
+                
+                
 
-    def send(driver):
-        print('enviando a mensagem')
-        time.sleep(20)
-        elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
+            if go==True:
+                print('contado acessado')
+                break
+    def clear_box_text(list_messenger,driver):
+        #print('limpando caixa de texto')
+        #time.sleep(10)
+        print('limpando box de texto')
+        while True:
+            try :
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').clear() 
     
+                go=True
+
+            except:
+                go=False
+                
+                
+
+            if go==True:
+                print('box de texto limpo')
+                break    
+    def write_box_text(list_messenger,driver):
+        #print('escrevendo para o contato')
+        #time.sleep(20)
+        print('escrevendo mensagem')
+        while True:
+            try :
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(list_messenger)
+        
+                go=True
+
+            except:
+                go=False
+                
+
+            if go==True:
+                print('mensagem escrita')
+                break  
+    def send(driver):
+        #print('enviando a mensagem')
+        #time.sleep(20)
+        print('enviando mensagem')
+        while True:
+            try :
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
+
+                go=True
+
+            except:
+                go=False
+                
+                
+
+            if go==True:
+                print('mensagem enviada !')
+                break 
     def extract():    
         mensagem = driver.find_element_by_xpath('/html/body/div/div[1]/div[1]/div[4]/div[1]/div[3]/div/div[1]/div[3]')
         mensagem=mensagem.get_attribute("outerHTML")
