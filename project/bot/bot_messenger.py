@@ -8,37 +8,15 @@ from selenium.webdriver import ActionChains
 import time #biblioteca para adicionar um tempo de espera 
 from bs4 import BeautifulSoup #manipular html
 
-class marionette():
-     def on_marionette(link):
-         options = Options()# instancinado 
-         options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"#adicionando o caminho do navagado ao codigo
-         driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/Desktop/Nova pasta/geckodriver-v0.29.1-win64/2/geckodriver.exe")#adiconando o caminho do controlador de navegador
-         elemento=driver.get(link)
-         time.sleep(20)
-         print('aguarde pedido de autentificação')
 
 
-class Bot_messenger:
+
+class messenger:
     link='https://web.whatsapp.com/'
-    contact="É eu msm"
-    options = Options()# instancinado 
-    options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"#adicionando o caminho do navagado ao codigo
+    options = Options()
+    options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"
     driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/Desktop/Nova pasta/geckodriver-v0.29.1-win64/2/geckodriver.exe")#adiconando o caminho do controlador de navegador
     elemento=driver.get(link)
-
-
- 
-
-    # def on_marionette(link):
-    #     options = Options()# instancinado 
-    #     options.binary_location = r"C:/Program Files/Mozilla Firefox/firefox.exe"#adicionando o caminho do navagado ao codigo
-    #     driver = webdriver.Firefox(options=options, executable_path="C:/Users/dougl/Desktop/Nova pasta/geckodriver-v0.29.1-win64/2/geckodriver.exe")#adiconando o caminho do controlador de navegador
-    #     elemento=driver.get(link)
-    #     time.sleep(20)
-    #     print('aguarde pedido de autentificação')
-     
-    
-    
 
     def authentication(driver):
         print('por favor autentifique-se')
@@ -55,7 +33,6 @@ class Bot_messenger:
                 print('autentificado !')
                 break
         return authentication 
-    
 
     def clear_box_contact(driver ):
         print('buscando caixa de busca de contato')

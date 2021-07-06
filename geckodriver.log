@@ -1059,3 +1059,195 @@ webdriverClickElement@chrome://marionette/content/interaction.js:179:31
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 1625535161671	Marionette	INFO	Stopped listening on port 55832
+1625585401573	geckodriver	INFO	Listening on 127.0.0.1:62289
+1625585404617	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilekJFkKK"
+1625585406061	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilekJFkKK\\search.json.mozlz4", (void 0)))
+1625585409765	Marionette	INFO	Listening on port 62297
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900D1,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
+
+1625585409954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625585464131	Marionette	INFO	Stopped listening on port 62297
+1625587779219	geckodriver	INFO	Listening on 127.0.0.1:56824
+1625587782272	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilegZFw4B"
+1625587783066	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilegZFw4B\\search.json.mozlz4", (void 0)))
+1625587786011	Marionette	INFO	Listening on port 56832
+1625587786458	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+[Parent 32756, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+[Parent 32756, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1625587862040	Marionette	INFO	Stopped listening on port 56832
+1625587863869	geckodriver	INFO	Listening on 127.0.0.1:63036
+1625587866915	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileafWd9S"
+1625587867349	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileafWd9S\\search.json.mozlz4", (void 0)))
+1625587870047	Marionette	INFO	Listening on port 63045
+1625587870101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625587897017	Marionette	INFO	Stopped listening on port 63045
+1625587898922	geckodriver	INFO	Listening on 127.0.0.1:63092
+1625587901997	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofiles0QSOQ"
+1625587902437	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofiles0QSOQ\\search.json.mozlz4", (void 0)))
+1625587904886	Marionette	INFO	Listening on port 63100
+1625587905189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\dougl\AppData\Local\Temp\rust_mozprofiles0QSOQ\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625587952914	Marionette	INFO	Stopped listening on port 63100
+1625587954720	geckodriver	INFO	Listening on 127.0.0.1:52222
+1625587957780	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileFeFEpL"
+1625587958219	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileFeFEpL\\search.json.mozlz4", (void 0)))
+1625587960810	Marionette	INFO	Listening on port 52232
+1625587960959	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625587990380	Marionette	INFO	Stopped listening on port 52232
+1625587992093	geckodriver	INFO	Listening on 127.0.0.1:59281
+1625587995165	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilefP6U6N"
+1625587995593	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilefP6U6N\\search.json.mozlz4", (void 0)))
+1625587998253	Marionette	INFO	Listening on port 59291
+1625587998352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625588497907	Marionette	INFO	Stopped listening on port 59291
+5588366229	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileQKpx60"
+1625588366598	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileQKpx60\\search.json.mozlz4", (void 0)))
+1625588368700	Marionette	INFO	Listening on port 50101
+1625588368900	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1625588396519	Marionette	INFO	Stopped listening on port 50101
+1625588398053	geckodriver	INFO	Listening on 127.0.0.1:50157
+1625588401116	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileh6NpF9"
+1625588401541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileh6NpF9\\search.json.mozlz4", (void 0)))
+1625588404086	Marionette	INFO	Listening on port 50165
+1625588404307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\dougl\AppData\Local\Temp\rust_mozprofileh6NpF9\protections.sqlite
+1625588499046	Marionette	INFO	Stopped listening on port 50165
+1625588501551	geckodriver	INFO	Listening on 127.0.0.1:50224
+1625588504619	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilehG7K05"
+1625588505068	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilehG7K05\\search.json.mozlz4", (void 0)))
+1625588507919	Marionette	INFO	Listening on port 50232
+1625588508308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625588621209	Marionette	INFO	Stopped listening on port 50232
+1625589908390	geckodriver	INFO	Listening on 127.0.0.1:54557
+1625589911431	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileTmHHZU"
+1625589911885	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileTmHHZU\\search.json.mozlz4", (void 0)))
+1625589914502	Marionette	INFO	Listening on port 54565
+1625589914623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625589923459	Marionette	INFO	Stopped listening on port 54565
+1625594586584	geckodriver	INFO	Listening on 127.0.0.1:59564
+1625594589621	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilebQFSr0"
+1625594590154	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilebQFSr0\\search.json.mozlz4", (void 0)))
+1625594592875	Marionette	INFO	Listening on port 59572
+1625594593275	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:390:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:2335:3
+onClosed@chrome://marionette/content/server.js:194:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteCommands'
+1625594594738	Marionette	INFO	Stopped listening on port 59572
+1625594805782	geckodriver	INFO	Listening on 127.0.0.1:49999
+1625594808835	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilemGqaFp"
+1625594809349	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilemGqaFp\\search.json.mozlz4", (void 0)))
+1625594811927	Marionette	INFO	Listening on port 50008
+1625594812022	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:390:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:2335:3
+onClosed@chrome://marionette/content/server.js:194:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\dougl\AppData\Local\Temp\rust_mozprofilemGqaFp\protections.sqlite
+1625594816848	Marionette	INFO	Stopped listening on port 50008
+1625595557721	geckodriver	INFO	Listening on 127.0.0.1:62191
+1625595560774	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilexBfxoj"
+1625595561198	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilexBfxoj\\search.json.mozlz4", (void 0)))
+1625595563666	Marionette	INFO	Listening on port 62199
+1625595563957	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1625595564384	Marionette	INFO	Stopped listening on port 62199
+1625595789412	geckodriver	INFO	Listening on 127.0.0.1:61086
+1625595792456	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofile8oPg1s"
+1625595792937	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofile8oPg1s\\search.json.mozlz4", (void 0)))
+1625595795418	Marionette	INFO	Listening on port 61094
+1625595795645	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625595814904	Marionette	INFO	Stopped listening on port 61094
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625595826463	geckodriver	INFO	Listening on 127.0.0.1:63837
+1625595829493	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilesRMVME"
+1625595829932	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilesRMVME\\search.json.mozlz4", (void 0)))
+1625595832492	Marionette	INFO	Listening on port 63845
+1625595832688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625595837571	Marionette	INFO	Stopped listening on port 63845
+1625595859858	geckodriver	INFO	Listening on 127.0.0.1:63886
+1625595862918	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileJ8Be4k"
+1625595863341	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileJ8Be4k\\search.json.mozlz4", (void 0)))
+1625595865781	Marionette	INFO	Listening on port 63894
+1625595866084	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625595870219	Marionette	INFO	Stopped listening on port 63894
+1625595921916	geckodriver	INFO	Listening on 127.0.0.1:63935
+1625595924969	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofile6ehQRH"
+1625595925452	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofile6ehQRH\\search.json.mozlz4", (void 0)))
+1625595928054	Marionette	INFO	Listening on port 63943
+1625595928162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\dougl\AppData\Local\Temp\rust_mozprofile6ehQRH\protections.sqlite
+1625596003233	Marionette	INFO	Stopped listening on port 63943
