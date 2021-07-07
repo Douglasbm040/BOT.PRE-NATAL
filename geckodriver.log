@@ -1899,3 +1899,52 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
 JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
 1625614423776	Marionette	INFO	Stopped listening on port 61669
+1625670628698	geckodriver	INFO	Listening on 127.0.0.1:59758
+1625670631727	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileflQf3w"
+1625670633931	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileflQf3w\\search.json.mozlz4", (void 0)))
+1625670638935	Marionette	INFO	Listening on port 59769
+1625670641162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+1625670706764	Marionette	INFO	Stopped listening on port 59769
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625670794305	geckodriver	INFO	Listening on 127.0.0.1:59830
+1625670797423	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilePNWxzg"
+1625670798328	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilePNWxzg\\search.json.mozlz4", (void 0)))
+1625670801122	Marionette	INFO	Listening on port 59838
+1625670802839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+[Parent 5908, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1625671029206	Marionette	INFO	Stopped listening on port 59838
+1625671036025	geckodriver	INFO	Listening on 127.0.0.1:60034
+1625671039054	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilek9FTxQ"
+1625671039935	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofilek9FTxQ\\search.json.mozlz4", (void 0)))
+1625671042770	Marionette	INFO	Listening on port 60042
+1625671043227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.e002978cf4688a3eaf75.js, line 19: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python, line 376: SyntaxError: expected expression, got ','
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
+[Parent 1672, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
