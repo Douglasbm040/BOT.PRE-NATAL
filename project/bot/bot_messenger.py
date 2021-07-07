@@ -88,7 +88,7 @@ class messenger:
                 break
     def acess_contact(driver):
         #print('acessando contato ')
-        time.sleep(20)                          #/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div
+        time.sleep(15)                          #/html/body/div/div[1]/div[1]/div[2]/div[1]/span/div[1]/span/div[1]/div[2]/div[1]/div/div/div[2]/div/div
         print('acessando contato')
         while True:
             try :
