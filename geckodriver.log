@@ -1948,3 +1948,20 @@ JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/st
 JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
 JavaScript warning: https://snack-web-player.s3.us-west-1.amazonaws.com/v2/41/static/js/2.0074b5b8.chunk.js, line 1: unreachable code after return statement
 [Parent 1672, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1659: Error: permitUnload is already running for this tab.
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1659: Error: permitUnload is already running for this tab.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390142,name=PContent::Msg_ReportFrameTimingData) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 1672, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1625694841525	Marionette	INFO	Stopped listening on port 60042
