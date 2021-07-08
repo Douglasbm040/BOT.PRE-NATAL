@@ -141,8 +141,6 @@ class messenger:
                 print('mensagem escrita')
                 break  
     def send(driver):
-        #print('enviando a mensagem')
-        #time.sleep(20)
         print('enviando mensagem')
         while True:
             try :
