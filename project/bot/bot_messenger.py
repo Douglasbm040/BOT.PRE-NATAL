@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 import time #biblioteca para adicionar um tempo de espera 
-from bs4 import BeautifulSoup #manipular html
+
 
 
 
@@ -125,11 +125,12 @@ class messenger:
                 break    
     def write_box_text(list_messenger,driver):
         #print('escrevendo para o contato')
-        #time.sleep(20)
-        print('escrevendo mensagem')
-        while True:
+
+        tentativas=range(0,3)
+        for i in tentativas:
+                                                      
             try :
-                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(list_messenger)
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[1]/div/div[2]').send_keys(list_messenger)
         
                 go=True
 
@@ -142,9 +143,9 @@ class messenger:
                 break  
     def send(driver):
         print('enviando mensagem')
-        while True:
-            try :
-                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
+        while True:                                    
+            try :                                      
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/footer/div[1]/div[2]/div/div[1]/div/div[2]').send_keys(Keys.ENTER)
 
                 go=True
 
@@ -156,9 +157,4 @@ class messenger:
             if go==True:
                 print('mensagem enviada !')
                 break 
-    def extract():    
-        mensagem = driver.find_element_by_xpath('/html/body/div/div[1]/div[1]/div[4]/div[1]/div[3]/div/div[1]/div[3]')
-        mensagem=mensagem.get_attribute("outerHTML")
-        soup=BeautifulSoup(mensagem,'html5lib')
-        soup.get_text('!@#@!#@')
 

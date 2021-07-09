@@ -1,12 +1,14 @@
 from bot import admin
+from bot import bot_scrapy
+import schedule
 Bot= admin.admin_bot
-
+scrapy = bot_scrapy.scrapy
 def main():
-     rodadas_de_testes=range(1,21)
-     for i in rodadas_de_testes: 
-          print(i,' rodada')
-          Bot.startbot()
-          Bot.Bot_messenger('EU NAO SOU UM ROBOT','É eu msm')
-     
+     Bot.startbot()
+     job=Bot.Bot_messenger('EU NAO SOU UM ROBOT','É eu msm')
+     scrapy.extract()
+     schedule.every().monday.do(job)   
 main()
+
+
 

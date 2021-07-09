@@ -1,23 +1,9 @@
 from bot.bot_messenger import messenger
-import time
+
 
 robot= messenger
 driver=robot.driver
 class admin_bot:
-    def perssistencia(func):
-         while True:
-            time.sleep(5) 
-            try :
-                func
-                go=True
-
-            except:
-                go=False
-                print(0)
-                
-
-            if go==True:
-                break
 
     def startbot():
         robot.elemento

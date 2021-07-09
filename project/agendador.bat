@@ -1,0 +1,1 @@
+schtasks /create /tn agendamento_do_bot /tr C:\Users\dougl\Documents\GitHub\BOT.PRE-NATAL\project\main\main.exe/sc minutos/mo 1/st 13:10/et 13:01/k
