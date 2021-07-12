@@ -141,7 +141,7 @@ class messenger:
             if go==True:
                 print('mensagem escrita')
                 break  
-    def send(driver):
+    def send_messenger(driver):
         print('enviando mensagem')
         while True:                                    
             try :                                      

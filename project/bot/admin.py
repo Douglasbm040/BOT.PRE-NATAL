@@ -16,7 +16,7 @@ class admin_bot:
         robot.acess_contact(driver)
         #robot.clear_box_text(driver)
         robot.write_box_text(list_messenger,driver)
-        robot.send(driver)
+        robot.send_messenger(driver)
 
 
 
