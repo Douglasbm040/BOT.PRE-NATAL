@@ -1,0 +1,28 @@
+1626205183272	geckodriver	INFO	Listening on 127.0.0.1:61573
+1626205186637	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileosYKjP"
+1626205189975	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofileosYKjP\\search.json.mozlz4", (void 0)))
+1626205197992	Marionette	INFO	Listening on port 61581
+1626205198599	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.4b9c044a48c9fc5005b0.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.4b9c044a48c9fc5005b0.js, line 19: unreachable code after return statement
+1626205281415	Marionette	INFO	Stopped listening on port 61581
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626205643668	geckodriver	INFO	Listening on 127.0.0.1:56092
+1626205646681	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofiledQgm60"
+1626205648248	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dougl\\AppData\\Local\\Temp\\rust_mozprofiledQgm60\\search.json.mozlz4", (void 0)))
+1626205651701	Marionette	INFO	Listening on port 56101
+1626205652027	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.4b9c044a48c9fc5005b0.js, line 19: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.4b9c044a48c9fc5005b0.js, line 19: unreachable code after return statement
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+1626205657401	Marionette	INFO	Stopped listening on port 56101
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626205741281	geckodriver	INFO	Listening on 127.0.0.1:57172
