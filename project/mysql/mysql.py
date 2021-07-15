@@ -4,14 +4,15 @@ conexao = pymysql.connect(
     host = 'localhost',
     user='root',
     passwd='',
-    database='nursebot.db',
+    database='db',
+
 
 
 
 )
 
 cursor=conexao.cursor()
-#cursor.execute('CREATE TABLE comcontato(nome VARCHAR(255),mensagem VARCHAR(255)) ')
+cursor.execute('CREATE DATABASE comnursebot')
 cursor.execute("SHOW TABLES")
 
 for tabelas in cursor:
