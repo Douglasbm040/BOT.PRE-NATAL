@@ -1,7 +1,8 @@
 from bot.bot_messenger import messenger
-
+from bot.bot_scrapy import scrapy 
 
 robot= messenger
+extrair=scrapy
 driver=robot.driver
 class admin_bot:
 
@@ -17,6 +18,9 @@ class admin_bot:
         #robot.clear_box_text(driver)
         robot.write_box_text(list_messenger,driver)
         robot.send_messenger(driver)
+        extrair.extract(driver)
+        robot.encontrar_menu(driver)
+        robot.excluir_registros(driver)
 
 
 

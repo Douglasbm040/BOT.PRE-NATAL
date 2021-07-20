@@ -10,12 +10,12 @@ db = firestore.client()
 
 # adicionar dados ao banco
 
-#doc_ref = db.collection(u'users').document(u'alovelace')
-#doc_ref.set({
-#    u'first': u'Ada',
-#    u'last': u'Lovelace',
-#    u'born': 1816
-#})
+doc_ref = db.collection(u'users').document(u'alovelace')
+doc_ref.set({
+    u'first': u'Ada',
+    u'last': u'Lovelace',
+    u'born': 1816
+})
 
 #ler dados 
 def acessar_firebase(nomedacolecao):
