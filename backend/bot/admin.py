@@ -1,5 +1,5 @@
-from bot.bot_messenger import messenger
-from bot.bot_scrapy import scrapy 
+from bot_messenger import messenger
+from bot_scrapy import scrapy 
 
 robot= messenger
 extrair=scrapy

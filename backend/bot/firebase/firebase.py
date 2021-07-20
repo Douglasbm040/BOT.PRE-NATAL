@@ -30,7 +30,7 @@ class db_firebase():
             registros = doc.to_dict()
         return registros 
 
-    print(registros['nome da função']['click_box_contact'])
+
 
 
 
