@@ -10,18 +10,22 @@ db = firestore.client()
 
 # adicionar dados ao banco
 
-doc_ref = db.collection(u'users').document(u'alovelace')
-doc_ref.set({
-    u'first': u'Ada',
-    u'last': u'Lovelace',
-    u'born': 1816
-})
+#doc_ref = db.collection(u'users').document(u'alovelace')
+#doc_ref.set({
+#    u'first': u'Ada',
+#    u'last': u'Lovelace',
+#    u'born': 1816
+#})
 
 #ler dados 
+def acessar_firebase(nomedacolecao):
+    colecao = db.collection(nomedacolecao) #u'xpath_whats_app'
+    docs = colecao.stream()
+    for doc in docs:
+        registros = doc.to_dict()
+    return 
 
-users_ref = db.collection(u'users')
-docs = users_ref.stream()
-for doc in docs:
-    print(f'{doc.id} => {doc.to_dict()}')
+print(registros['nome da função']['click_box_contact'])
+
 
 
