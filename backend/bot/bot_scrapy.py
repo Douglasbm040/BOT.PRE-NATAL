@@ -1,5 +1,6 @@
 from bot.bot_messenger import messenger
 from bs4 import BeautifulSoup 
+from firebase.firebase import* 
 
 driver=messenger.driver
 
