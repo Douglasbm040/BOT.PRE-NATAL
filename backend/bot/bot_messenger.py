@@ -157,4 +157,36 @@ class messenger:
             if go==True:
                 print('mensagem enviada !')
                 break 
+    def encontrar_menu(driver):
+        print('buscando o menu')
+        while True:                                    
+            try :                                      
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/div[1]/div[4]/div[1]/header/div[3]/div/div[2]/div/div/span').click()
+
+                go=True
+
+            except:
+                go=False
+                
+                
+
+            if go==True:
+                print('menu encontrado !')
+                break 
+    def excluir_registros(driver):
+        print('limpando rastros')
+        while True:                                    
+            try :                                      
+                elemento=driver.find_element_by_xpath(r'/html/body/div/div[1]/span[4]/div/ul/div/div/li[5]/div[1]').click()
+
+                go=True
+
+            except:
+                go=False
+                
+                
+
+            if go==True:
+                print('limpar os rastros')
+                break 
 
