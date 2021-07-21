@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "773220031663",
+    "firebase_url": "https://florence-30632.firebaseio.com",
+    "project_id": "florence-30632",
+    "storage_bucket": "florence-30632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773220031663:android:6c8f3b49b46b3ca222485a",
+        "android_client_info": {
+          "package_name": "com.example.nursebot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773220031663-rt2vrc4e04k5gcecvg4k4g9hfkp910cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrqfE_4CNnf92pNhlHrcVI-uvUzExjzDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773220031663-rt2vrc4e04k5gcecvg4k4g9hfkp910cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
