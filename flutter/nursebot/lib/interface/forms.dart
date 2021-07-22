@@ -1,13 +1,15 @@
 import 'package:nursebot/model/integration.dart';
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
 
-
+FirebaseFirestore firestore = FirebaseFirestore.instance;
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'cadastro de gestante',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -34,6 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
     'GRUPO D'
   ]; // Option 2
   dynamic _selectedLocation;
+  void criardocumento(
+      String collection, String document, Map<String, dynamic> data) async {
+    firestore
+        .collection(collection)
+        .doc(document)
+        .set(data); //instanciando o obj firestore para acessar a colecao
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
-              child: Text('id : ' ),
+              child: Text('id : '),
             ),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
@@ -91,7 +100,16 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Container(
               alignment: Alignment.center,
-              child: RaisedButton(onPressed: () {}, child: Text('cadastrar')),
+              child: RaisedButton(
+                  onPressed: () {
+                    setState(() {
+                      print('criar produto');
+                      
+                      criardocumento(
+                          'produtos', 'produto 1', {'produto': 'caneta'});
+                    });
+                  },
+                  child: Text('Cadastrar')),
             )
           ],
         ),
